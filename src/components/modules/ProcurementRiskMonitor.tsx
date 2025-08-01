@@ -157,9 +157,9 @@ export function ProcurementRiskMonitor() {
         <div className="bg-info/10 border border-info/20 rounded-lg p-4">
           <div className="flex items-center space-x-2 mb-2">
             <AlertTriangle className="h-5 w-5 text-info" />
-            <h4 className="font-medium text-info-foreground">Overall Risk Assessment</h4>
+            <h4 className="font-medium text-foreground">Overall Risk Assessment</h4>
           </div>
-          <p className="text-sm text-info-foreground">
+          <p className="text-sm text-foreground">
             Current risk level is <strong>MODERATE</strong> due to weather disruptions in China. 
             Recommend diversifying supplier base to include more India-based vendors to reduce geographical risk exposure.
           </p>

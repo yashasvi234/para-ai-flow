@@ -127,9 +127,9 @@ export function PricePrediction() {
         <div className="bg-warning/10 border border-warning/20 rounded-lg p-4">
           <div className="flex items-center space-x-2 mb-2">
             <AlertTriangle className="h-5 w-5 text-warning" />
-            <h4 className="font-medium text-warning-foreground">AI Insight</h4>
+            <h4 className="font-medium text-foreground">AI Insight</h4>
           </div>
-          <p className="text-sm text-warning-foreground">
+          <p className="text-sm text-foreground">
             <strong>Likely 4% increase due to acetaminophen raw material cost rise.</strong> 
             Recommend locking in current prices with preferred vendors or consider forward contracts 
             to hedge against price volatility in the next 30 days.

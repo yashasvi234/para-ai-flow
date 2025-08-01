@@ -123,9 +123,9 @@ export function QuotationAnalysis() {
         <div className="bg-info/10 border border-info/20 rounded-lg p-4">
           <div className="flex items-center space-x-2 mb-2">
             <Award className="h-5 w-5 text-info" />
-            <h4 className="font-medium text-info-foreground">AI Recommendation</h4>
+            <h4 className="font-medium text-foreground">AI Recommendation</h4>
           </div>
-          <p className="text-sm text-info-foreground">
+          <p className="text-sm text-foreground">
             <strong>Choose 'Nova Pharma' – Balanced on price and speed.</strong> Offers competitive pricing (₹2,680/kg) 
             with reasonable lead time (12 days) and highest reliability score (90). Best value proposition for current requirements.
           </p>
