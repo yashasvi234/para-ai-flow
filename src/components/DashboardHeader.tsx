@@ -1,4 +1,3 @@
-import { SidebarTrigger } from "@/components/ui/sidebar";
 import { Badge } from "@/components/ui/badge";
 import { Clock, User } from "lucide-react";
 
@@ -6,7 +5,6 @@ export function DashboardHeader() {
   return (
     <header className="h-16 flex items-center justify-between px-6 bg-card border-b">
       <div className="flex items-center space-x-4">
-        <SidebarTrigger />
         <div>
           <h1 className="text-xl font-semibold text-foreground">
             Paracetamol 500mg Dashboard
