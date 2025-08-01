@@ -17,7 +17,7 @@ export function AutoPurchaseOrder() {
         <div className="flex items-center justify-between p-4 bg-success/10 rounded-lg border border-success/20">
           <div className="flex items-center space-x-2">
             <CheckCircle className="h-5 w-5 text-success" />
-            <span className="font-medium text-success-foreground">
+            <span className="font-medium text-foreground">
               PO Ready for Generation
             </span>
           </div>

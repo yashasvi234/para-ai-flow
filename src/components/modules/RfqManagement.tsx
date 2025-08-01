@@ -125,7 +125,7 @@ export function RfqManagement() {
               {rfq.status === "Pending" && (
                 <div className="flex items-center space-x-2">
                   <AlertCircle className="h-4 w-4 text-warning" />
-                  <span className="text-sm text-warning-foreground">Follow-up reminder sent</span>
+                  <span className="text-sm text-foreground">Follow-up reminder sent</span>
                   <Button variant="outline" size="sm">
                     Send Reminder
                   </Button>

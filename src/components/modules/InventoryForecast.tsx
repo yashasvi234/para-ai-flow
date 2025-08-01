@@ -82,9 +82,9 @@ export function InventoryForecast() {
         <div className="bg-warning/10 border border-warning/20 rounded-lg p-4">
           <div className="flex items-center space-x-2 mb-2">
             <AlertTriangle className="h-5 w-5 text-warning" />
-            <h4 className="font-medium text-warning-foreground">AI Recommendation</h4>
+            <h4 className="font-medium text-foreground">AI Recommendation</h4>
           </div>
-          <p className="text-sm text-warning-foreground">
+          <p className="text-sm text-foreground">
             <strong>Reorder 250kg within 7 days</strong> to maintain safety stock levels. 
             Current consumption trend suggests stockout by Day 67 without replenishment.
           </p>

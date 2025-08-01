@@ -11,9 +11,6 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
       <main className="flex-1 p-6">
         {children}
       </main>
-      <footer className="border-t p-4 text-center text-sm text-foreground">
-        Version 1.0 – AI SCM App (Static Prototype) | Powered by Lovable
-      </footer>
     </div>
   );
 }

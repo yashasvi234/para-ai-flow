@@ -87,7 +87,7 @@ export function VendorRiskInsights() {
         </div>
 
         <div className="mt-4 p-3 bg-warning/10 rounded-lg border border-warning/20">
-          <p className="text-sm text-warning-foreground">
+          <p className="text-sm text-foreground">
             <strong>Alert:</strong> Monitor freight conditions during monsoon season (Jun-Sep). Consider backup suppliers from other regions.
           </p>
         </div>
